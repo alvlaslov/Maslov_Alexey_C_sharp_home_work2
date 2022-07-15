@@ -7,11 +7,11 @@
  {
      Console. WriteLine($"{number} is a weekend");
  }
- else if (number < 1 && number > 7)
+ else if (number < 1 || number > 7)
  {
     Console. WriteLine($"{number} isnot a day of week");
  }
-else
+else 
 {
 Console. WriteLine($"{number} is a workday");
 }
