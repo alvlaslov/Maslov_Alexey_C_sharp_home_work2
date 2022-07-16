@@ -14,7 +14,6 @@ else
 while (modulnumber > 999)
 {
     modulnumber = modulnumber / 10;
-    Console.WriteLine($"{modulnumber}");
 }
 int thirddigital = 0;
 thirddigital += modulnumber % 10;
